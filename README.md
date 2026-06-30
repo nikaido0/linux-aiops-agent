@@ -29,7 +29,7 @@
 ┌──────────────────▼───────────────────────────────────┐
 │  业务层                                              │
 │  AgentService (ReAct)  │  AIOpsService (Plan-Exec)   │
-│  PromptBuilder          │  MemorySaver (3轮消息修剪)  │
+│  PromptBuilder          │  ContextManager (上下文调度) │
 │  LogWatcher (主动监控)  │  AlertManager (告警推送)    │
 └──────────────────┬───────────────────────────────────┘
                    │
@@ -53,7 +53,8 @@
 
 ### 1. AI Agent 架构
 - 基于 LangGraph 实现 ReAct 对话 Agent 和 Plan-Execute-Replan 诊断 Agent
-- 多轮对话上下文的 PromptBuilder + 消息修剪机制
+- ContextManager 统一管理历史裁剪、token 预算、上下文结构组装
+- PromptBuilder 仅构建纯角色 SystemMessage（静态不变）
 - MCP 工具协议集成日志查询、系统状态、搜索能力
 
 ### 2. Hybrid RAG 知识库
@@ -116,7 +117,7 @@ linux-aiops-agent/
 │   ├── api/              # FastAPI 路由 (health/chat/aiops)
 │   ├── providers/        # DeepSeek Provider + Registry
 │   ├── retrieval/        # Hybrid Search (BM25+Vec+RRF+Reranker)
-│   ├── services/         # Agent/AIOps/Knowledge/PromptBuilder/LogWatcher
+│   ├── services/         # Agent/AIOps/Knowledge/ContextManager/LogWatcher
 │   ├── graphs/           # AIOps LangGraph 状态图
 │   ├── nodes/            # Planner/Executor/Replanner
 │   ├── tools/            # 本地工具 (knowledge/time)
