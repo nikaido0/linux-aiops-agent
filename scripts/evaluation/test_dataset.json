@@ -1,0 +1,1069 @@
+[
+  {
+    "id": "MEM-001",
+    "category": "memory",
+    "question": "服务器 OOM 了怎么办",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "OOM",
+      "jmap",
+      "堆转储"
+    ]
+  },
+  {
+    "id": "MEM-002",
+    "category": "memory",
+    "question": "Java OutOfMemoryError 如何排查",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "jmap",
+      "Xmx",
+      "GC"
+    ]
+  },
+  {
+    "id": "MEM-003",
+    "category": "memory",
+    "question": "内存泄漏怎么定位",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "valgrind",
+      "jmap",
+      "MAT"
+    ]
+  },
+  {
+    "id": "MEM-004",
+    "category": "memory",
+    "question": "free -h 显示内存不足，怎么处理",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "free",
+      "内存",
+      "swap"
+    ]
+  },
+  {
+    "id": "MEM-005",
+    "category": "memory",
+    "question": "JVM GC overhead limit exceeded 是什么",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "GC",
+      "OOM",
+      "Xmx"
+    ]
+  },
+  {
+    "id": "MEM-006",
+    "category": "memory",
+    "question": "Linux 内存使用率 95% 如何排查",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "top",
+      "ps",
+      "内存"
+    ]
+  },
+  {
+    "id": "MEM-007",
+    "category": "memory",
+    "question": "进程被 SIGKILL 杀了",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "SIGKILL",
+      "OOM",
+      "内核"
+    ]
+  },
+  {
+    "id": "CPU-001",
+    "category": "cpu",
+    "question": "CPU 使用率过高怎么排查",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "top",
+      "htop",
+      "ps"
+    ]
+  },
+  {
+    "id": "CPU-002",
+    "category": "cpu",
+    "question": "top 显示 java 进程 CPU 100%",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "top",
+      "死循环",
+      "jstack"
+    ]
+  },
+  {
+    "id": "CPU-003",
+    "category": "cpu",
+    "question": "Linux 服务器负载高怎么办",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "负载",
+      "top",
+      "ps"
+    ]
+  },
+  {
+    "id": "CPU-004",
+    "category": "cpu",
+    "question": "如何查看每个 CPU 核心的使用率",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "mpstat",
+      "top",
+      "核心"
+    ]
+  },
+  {
+    "id": "CPU-005",
+    "category": "cpu",
+    "question": "服务器 CPU 突然飙高怎么定位",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "top",
+      "pidstat",
+      "strace"
+    ]
+  },
+  {
+    "id": "CPU-006",
+    "category": "cpu",
+    "question": "进程 CPU 占用高但业务量不大",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "死循环",
+      "jstack",
+      "strace"
+    ]
+  },
+  {
+    "id": "DSK-001",
+    "category": "disk",
+    "question": "磁盘空间不足怎么清理",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "df",
+      "du",
+      "日志"
+    ]
+  },
+  {
+    "id": "DSK-002",
+    "category": "disk",
+    "question": "No space left on device 错误",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "df",
+      "磁盘",
+      "清理"
+    ]
+  },
+  {
+    "id": "DSK-003",
+    "category": "disk",
+    "question": "找出 Linux 中最大的文件",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "find",
+      "du",
+      "sort"
+    ]
+  },
+  {
+    "id": "DSK-004",
+    "category": "disk",
+    "question": "Docker 占用太多磁盘空间",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "docker",
+      "prune",
+      "镜像"
+    ]
+  },
+  {
+    "id": "DSK-005",
+    "category": "disk",
+    "question": "inode 耗尽怎么处理",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "inode",
+      "df",
+      "文件数"
+    ]
+  },
+  {
+    "id": "DSK-006",
+    "category": "disk",
+    "question": "日志文件太大撑满磁盘",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "logrotate",
+      "日志",
+      "清理"
+    ]
+  },
+  {
+    "id": "DSK-007",
+    "category": "disk",
+    "question": "磁盘 IO 性能如何排查",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "iostat",
+      "iotop",
+      "IO"
+    ]
+  },
+  {
+    "id": "SVC-001",
+    "category": "service",
+    "question": "服务启动失败怎么排查",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "systemctl",
+      "journalctl",
+      "日志"
+    ]
+  },
+  {
+    "id": "SVC-002",
+    "category": "service",
+    "question": "端口被占用怎么办",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "ss",
+      "lsof",
+      "端口"
+    ]
+  },
+  {
+    "id": "SVC-003",
+    "category": "service",
+    "question": "systemctl status 显示 failed",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "systemctl",
+      "journalctl",
+      "重启"
+    ]
+  },
+  {
+    "id": "SVC-004",
+    "category": "service",
+    "question": "健康检查失败如何排查",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "curl",
+      "健康检查",
+      "端口"
+    ]
+  },
+  {
+    "id": "SVC-005",
+    "category": "service",
+    "question": "502 Bad Gateway 错误",
+    "expected_doc": "nginx-troubleshooting",
+    "expected_keywords": [
+      "nginx",
+      "502",
+      "proxy_pass"
+    ]
+  },
+  {
+    "id": "SVC-006",
+    "category": "service",
+    "question": "nginx 配置测试失败",
+    "expected_doc": "nginx-troubleshooting",
+    "expected_keywords": [
+      "nginx",
+      "配置",
+      "test"
+    ]
+  },
+  {
+    "id": "NET-001",
+    "category": "network",
+    "question": "网络不通怎么排查",
+    "expected_doc": "network-troubleshooting",
+    "expected_keywords": [
+      "ping",
+      "traceroute",
+      "mtr"
+    ]
+  },
+  {
+    "id": "NET-002",
+    "category": "network",
+    "question": "iptables 端口被挡了",
+    "expected_doc": "firewall-iptables",
+    "expected_keywords": [
+      "iptables",
+      "防火墙",
+      "ACCEPT"
+    ]
+  },
+  {
+    "id": "NET-003",
+    "category": "network",
+    "question": "DNS 解析失败怎么处理",
+    "expected_doc": "network-troubleshooting",
+    "expected_keywords": [
+      "nslookup",
+      "dig",
+      "DNS"
+    ]
+  },
+  {
+    "id": "NET-004",
+    "category": "network",
+    "question": "如何查看 Linux 监听端口",
+    "expected_doc": "network-troubleshooting",
+    "expected_keywords": [
+      "ss",
+      "netstat",
+      "监听"
+    ]
+  },
+  {
+    "id": "NET-005",
+    "category": "network",
+    "question": "Connection refused 什么原因",
+    "expected_doc": "network-troubleshooting",
+    "expected_keywords": [
+      "端口",
+      "服务",
+      "防火墙"
+    ]
+  },
+  {
+    "id": "NET-006",
+    "category": "network",
+    "question": "nf_conntrack table full 怎么解决",
+    "expected_doc": "firewall-iptables",
+    "expected_keywords": [
+      "conntrack",
+      "nf",
+      "sysctl"
+    ]
+  },
+  {
+    "id": "NET-007",
+    "category": "network",
+    "question": "如何封禁某个 IP",
+    "expected_doc": "firewall-iptables",
+    "expected_keywords": [
+      "iptables",
+      "DROP",
+      "封禁"
+    ]
+  },
+  {
+    "id": "SEC-001",
+    "category": "security",
+    "question": "SSH 连接不上怎么排查",
+    "expected_doc": "ssh-troubleshooting",
+    "expected_keywords": [
+      "ssh",
+      "sshd",
+      "22端口"
+    ]
+  },
+  {
+    "id": "SEC-002",
+    "category": "security",
+    "question": "Permission denied (publickey) 怎么解决",
+    "expected_doc": "ssh-troubleshooting",
+    "expected_keywords": [
+      "authorized_keys",
+      "权限",
+      "700"
+    ]
+  },
+  {
+    "id": "SEC-003",
+    "category": "security",
+    "question": "Linux 文件权限怎么修改",
+    "expected_doc": "file-permissions",
+    "expected_keywords": [
+      "chmod",
+      "chown",
+      "权限"
+    ]
+  },
+  {
+    "id": "SEC-004",
+    "category": "security",
+    "question": "如何加固 SSH 安全",
+    "expected_doc": "ssh-troubleshooting",
+    "expected_keywords": [
+      "sshd",
+      "配置",
+      "安全"
+    ]
+  },
+  {
+    "id": "SEC-005",
+    "category": "security",
+    "question": "find 查找 SUID 权限文件",
+    "expected_doc": "file-permissions",
+    "expected_keywords": [
+      "SUID",
+      "find",
+      "4000"
+    ]
+  },
+  {
+    "id": "PERF-001",
+    "category": "performance",
+    "question": "接口响应慢怎么优化",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "慢查询",
+      "索引",
+      "优化"
+    ]
+  },
+  {
+    "id": "PERF-002",
+    "category": "performance",
+    "question": "数据库慢查询怎么排查",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "EXPLAIN",
+      "慢查询",
+      "索引"
+    ]
+  },
+  {
+    "id": "PERF-003",
+    "category": "performance",
+    "question": "缓存穿透怎么解决",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "布隆过滤器",
+      "缓存",
+      "穿透"
+    ]
+  },
+  {
+    "id": "PERF-004",
+    "category": "performance",
+    "question": "服务器性能瓶颈怎么定位",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "top",
+      "iostat",
+      "瓶颈"
+    ]
+  },
+  {
+    "id": "DKR-001",
+    "category": "docker",
+    "question": "Docker 容器频繁重启",
+    "expected_doc": "docker-troubleshooting",
+    "expected_keywords": [
+      "docker",
+      "logs",
+      "退出码"
+    ]
+  },
+  {
+    "id": "DKR-002",
+    "category": "docker",
+    "question": "Docker 日志占满磁盘",
+    "expected_doc": "docker-troubleshooting",
+    "expected_keywords": [
+      "max-size",
+      "daemon.json",
+      "日志"
+    ]
+  },
+  {
+    "id": "DKR-003",
+    "category": "docker",
+    "question": "docker system prune 是做什么的",
+    "expected_doc": "docker-troubleshooting",
+    "expected_keywords": [
+      "prune",
+      "清理",
+      "镜像"
+    ]
+  },
+  {
+    "id": "LOG-001",
+    "category": "log",
+    "question": "journalctl 怎么用",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "journalctl",
+      "systemd",
+      "日志"
+    ]
+  },
+  {
+    "id": "LOG-002",
+    "category": "log",
+    "question": "logrotate 怎么配置",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "logrotate",
+      "轮转",
+      "配置"
+    ]
+  },
+  {
+    "id": "LOG-003",
+    "category": "log",
+    "question": "Linux 日志文件都存放在哪里",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "/var/log",
+      "syslog",
+      "messages"
+    ]
+  },
+  {
+    "id": "LOG-004",
+    "category": "log",
+    "question": "journalctl 日志占用太大怎么清理",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "vacuum",
+      "journalctl",
+      "清理"
+    ]
+  },
+  {
+    "id": "MYS-001",
+    "category": "mysql",
+    "question": "MySQL Too many connections 怎么解决",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "max_connections",
+      "连接池",
+      "flush-hosts"
+    ]
+  },
+  {
+    "id": "MYS-002",
+    "category": "mysql",
+    "question": "MySQL 慢查询怎么优化",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "慢查询",
+      "索引",
+      "EXPLAIN"
+    ]
+  },
+  {
+    "id": "MYS-003",
+    "category": "mysql",
+    "question": "MySQL 死锁怎么排查",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "死锁",
+      "INNODB",
+      "事务"
+    ]
+  },
+  {
+    "id": "PRC-001",
+    "category": "process",
+    "question": "僵尸进程怎么处理",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "僵尸",
+      "Z",
+      "父进程"
+    ]
+  },
+  {
+    "id": "PRC-002",
+    "category": "process",
+    "question": "如何查看进程的 CPU 和内存占用",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "ps",
+      "top",
+      "排序"
+    ]
+  },
+  {
+    "id": "PRC-003",
+    "category": "process",
+    "question": "kill -9 和 kill -15 有什么区别",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "SIGTERM",
+      "SIGKILL",
+      "信号"
+    ]
+  },
+  {
+    "id": "KRN-001",
+    "category": "kernel",
+    "question": "Linux 内核参数怎么优化",
+    "expected_doc": "kernel-tuning",
+    "expected_keywords": [
+      "sysctl",
+      "内核",
+      "/proc"
+    ]
+  },
+  {
+    "id": "KRN-002",
+    "category": "kernel",
+    "question": "如何调整 swappiness",
+    "expected_doc": "kernel-tuning",
+    "expected_keywords": [
+      "swappiness",
+      "swap",
+      "vm"
+    ]
+  },
+  {
+    "id": "KRN-003",
+    "category": "kernel",
+    "question": "TIME_WAIT 太多怎么处理",
+    "expected_doc": "kernel-tuning",
+    "expected_keywords": [
+      "TIME_WAIT",
+      "tcp_fin_timeout",
+      "tcp_tw_reuse"
+    ]
+  },
+  {
+    "id": "KRN-004",
+    "category": "kernel",
+    "question": "ulimit 文件描述符限制怎么改",
+    "expected_doc": "kernel-tuning",
+    "expected_keywords": [
+      "ulimit",
+      "nofile",
+      "limits.conf"
+    ]
+  },
+  {
+    "id": "RAG-001",
+    "category": "rag",
+    "question": "什么是 RAG",
+    "expected_doc": "memory-usage",
+    "expected_keywords": []
+  },
+  {
+    "id": "CRS-001",
+    "category": "cross",
+    "question": "服务器 OOM 导致 nginx 挂了怎么排查",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "OOM",
+      "nginx",
+      "systemctl"
+    ]
+  },
+  {
+    "id": "CRS-002",
+    "category": "cross",
+    "question": "磁盘满了导致服务写不了日志",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "磁盘",
+      "No space",
+      "日志"
+    ]
+  },
+  {
+    "id": "CRS-003",
+    "category": "cross",
+    "question": "数据库连不上，怀疑是网络问题",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "MySQL",
+      "连接",
+      "3306"
+    ]
+  },
+  {
+    "id": "MEM-008",
+    "category": "memory",
+    "question": "如何查看进程内存占用排行",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "ps",
+      "%mem",
+      "排序"
+    ]
+  },
+  {
+    "id": "MEM-009",
+    "category": "memory",
+    "question": "Linux swap 使用过高怎么办",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "swap",
+      "swappiness",
+      "内存"
+    ]
+  },
+  {
+    "id": "MEM-010",
+    "category": "memory",
+    "question": "JVM 堆内存怎么设置",
+    "expected_doc": "memory-usage",
+    "expected_keywords": [
+      "Xmx",
+      "Xms",
+      "JVM"
+    ]
+  },
+  {
+    "id": "CPU-007",
+    "category": "cpu",
+    "question": "如何用 perf 分析 CPU 性能",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "perf",
+      "采样",
+      "热点"
+    ]
+  },
+  {
+    "id": "CPU-008",
+    "category": "cpu",
+    "question": "load average 多少算高",
+    "expected_doc": "cpu-usage",
+    "expected_keywords": [
+      "负载",
+      "平均负载",
+      "CPU"
+    ]
+  },
+  {
+    "id": "DSK-008",
+    "category": "disk",
+    "question": "/tmp 目录写满了怎么办",
+    "expected_doc": "disk-usage",
+    "expected_keywords": [
+      "/tmp",
+      "临时文件",
+      "清理"
+    ]
+  },
+  {
+    "id": "DSK-009",
+    "category": "disk",
+    "question": "如何配置 logrotate 清理日志",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "logrotate",
+      "轮转"
+    ]
+  },
+  {
+    "id": "NET-008",
+    "category": "network",
+    "question": "如何抓包分析网络问题",
+    "expected_doc": "network-troubleshooting",
+    "expected_keywords": [
+      "tcpdump",
+      "抓包"
+    ]
+  },
+  {
+    "id": "NET-009",
+    "category": "network",
+    "question": "curl 请求超时怎么排查",
+    "expected_doc": "network-troubleshooting",
+    "expected_keywords": [
+      "curl",
+      "超时"
+    ]
+  },
+  {
+    "id": "SVC-007",
+    "category": "service",
+    "question": "Nginx 504 Gateway Timeout",
+    "expected_doc": "nginx-troubleshooting",
+    "expected_keywords": [
+      "504",
+      "proxy_read_timeout"
+    ]
+  },
+  {
+    "id": "SVC-008",
+    "category": "service",
+    "question": "Nginx 413 Request Entity Too Large",
+    "expected_doc": "nginx-troubleshooting",
+    "expected_keywords": [
+      "413",
+      "client_max_body_size"
+    ]
+  },
+  {
+    "id": "SVC-009",
+    "category": "service",
+    "question": "如何查看 nginx 访问日志",
+    "expected_doc": "nginx-troubleshooting",
+    "expected_keywords": [
+      "access.log",
+      "nginx"
+    ]
+  },
+  {
+    "id": "DKR-004",
+    "category": "docker",
+    "question": "docker logs 看不到日志",
+    "expected_doc": "docker-troubleshooting",
+    "expected_keywords": [
+      "docker",
+      "logs"
+    ]
+  },
+  {
+    "id": "DKR-005",
+    "category": "docker",
+    "question": "Docker 容器网络不通",
+    "expected_doc": "docker-troubleshooting",
+    "expected_keywords": [
+      "docker",
+      "网络"
+    ]
+  },
+  {
+    "id": "DKR-006",
+    "category": "docker",
+    "question": "docker exec 进入容器",
+    "expected_doc": "docker-troubleshooting",
+    "expected_keywords": [
+      "docker",
+      "exec"
+    ]
+  },
+  {
+    "id": "MYS-004",
+    "category": "mysql",
+    "question": "MySQL 主从延迟怎么办",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "主从",
+      "延迟"
+    ]
+  },
+  {
+    "id": "MYS-005",
+    "category": "mysql",
+    "question": "如何查看 MySQL 当前连接数",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "Threads_connected",
+      "max_connections"
+    ]
+  },
+  {
+    "id": "MYS-006",
+    "category": "mysql",
+    "question": "mysqladmin flush-hosts 作用",
+    "expected_doc": "mysql-troubleshooting",
+    "expected_keywords": [
+      "flush-hosts",
+      "blocked"
+    ]
+  },
+  {
+    "id": "LOG-005",
+    "category": "log",
+    "question": "dmesg 命令怎么用",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "dmesg",
+      "内核"
+    ]
+  },
+  {
+    "id": "LOG-006",
+    "category": "log",
+    "question": "如何实时查看系统日志",
+    "expected_doc": "log-management",
+    "expected_keywords": [
+      "tail",
+      "journalctl"
+    ]
+  },
+  {
+    "id": "PRC-004",
+    "category": "process",
+    "question": "pstree 查看进程树",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "pstree"
+    ]
+  },
+  {
+    "id": "KRN-005",
+    "category": "kernel",
+    "question": "sysctl 永久生效怎么配置",
+    "expected_doc": "kernel-tuning",
+    "expected_keywords": [
+      "sysctl.conf",
+      "持久化"
+    ]
+  },
+  {
+    "id": "KRN-006",
+    "category": "kernel",
+    "question": "怎么修改打开文件数限制",
+    "expected_doc": "kernel-tuning",
+    "expected_keywords": [
+      "ulimit",
+      "nofile"
+    ]
+  },
+  {
+    "id": "SEC-006",
+    "category": "security",
+    "question": "如何查看登录失败记录",
+    "expected_doc": "ssh-troubleshooting",
+    "expected_keywords": [
+      "auth.log",
+      "登录"
+    ]
+  },
+  {
+    "id": "SEC-007",
+    "category": "security",
+    "question": "find 命令查找大文件",
+    "expected_doc": "file-permissions",
+    "expected_keywords": [
+      "find",
+      "size"
+    ]
+  },
+  {
+    "id": "SEC-008",
+    "category": "security",
+    "question": "chmod 755 是什么意思",
+    "expected_doc": "file-permissions",
+    "expected_keywords": [
+      "chmod",
+      "755",
+      "权限"
+    ]
+  },
+  {
+    "id": "PERF-005",
+    "category": "performance",
+    "question": "strace 怎么跟踪进程",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "strace",
+      "系统调用"
+    ]
+  },
+  {
+    "id": "PERF-006",
+    "category": "performance",
+    "question": "ab 压力测试工具怎么用",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "ab",
+      "压测"
+    ]
+  },
+  {
+    "id": "PERF-007",
+    "category": "performance",
+    "question": "怎么分析应用程序性能瓶颈",
+    "expected_doc": "slow-response",
+    "expected_keywords": [
+      "perf",
+      "火焰图",
+      "热点"
+    ]
+  },
+  {
+    "id": "CRS-004",
+    "category": "cross",
+    "question": "服务器重启后服务没自启",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "systemctl",
+      "enable"
+    ]
+  },
+  {
+    "id": "CRS-005",
+    "category": "cross",
+    "question": "crontab 定时任务不执行",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "cron",
+      "crontab"
+    ]
+  },
+  {
+    "id": "CRS-006",
+    "category": "cross",
+    "question": "系统时间不对怎么同步",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "ntp",
+      "时间同步"
+    ]
+  },
+  {
+    "id": "CRS-007",
+    "category": "cross",
+    "question": "yum install 安装失败",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "yum",
+      "安装"
+    ]
+  },
+  {
+    "id": "CRS-009",
+    "category": "cross",
+    "question": "SELinux 导致权限问题",
+    "expected_doc": "file-permissions",
+    "expected_keywords": [
+      "SELinux",
+      "权限"
+    ]
+  },
+  {
+    "id": "CRS-010",
+    "category": "cross",
+    "question": "如何查看系统运行时间",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "uptime",
+      "运行时间"
+    ]
+  },
+  {
+    "id": "CRS-011",
+    "category": "cross",
+    "question": "如何查看当前登录用户",
+    "expected_doc": "process-management",
+    "expected_keywords": [
+      "who",
+      "w",
+      "登录用户"
+    ]
+  },
+  {
+    "id": "CRS-012",
+    "category": "cross",
+    "question": "如何查看系统发行版信息",
+    "expected_doc": "service-unavailable",
+    "expected_keywords": [
+      "cat /etc/os-release",
+      "uname"
+    ]
+  }
+]

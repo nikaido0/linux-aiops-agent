@@ -1,0 +1,167 @@
+{
+  "dataset_size": 100,
+  "rag_hit_rate": {
+    "HitRate@1": {
+      "accuracy": 76.0,
+      "correct": 76,
+      "total": 100,
+      "avg_latency_ms": 201.8
+    },
+    "HitRate@3": {
+      "accuracy": 85.0,
+      "correct": 85,
+      "total": 100,
+      "avg_latency_ms": 193.1
+    },
+    "HitRate@5": {
+      "accuracy": 87.0,
+      "correct": 87,
+      "total": 100,
+      "avg_latency_ms": 192.4
+    },
+    "HitRate@10": {
+      "accuracy": 92.0,
+      "correct": 92,
+      "total": 100,
+      "avg_latency_ms": 202.8
+    }
+  },
+  "hybrid_vs_vector": {
+    "PureVector": {
+      "accuracy": 87.0,
+      "avg_latency_ms": 188.6
+    },
+    "HybridSearch": {
+      "accuracy": 91.0,
+      "avg_latency_ms": 716.4
+    },
+    "improvement": 4.0
+  },
+  "answer_quality": {
+    "keyword_coverage": "93.3%",
+    "avg_llm_latency_ms": 8126.0,
+    "sample_size": 20,
+    "details": [
+      {
+        "id": "MEM-001",
+        "question": "服务器 OOM 了怎么办",
+        "keyword_coverage": "3/3",
+        "latency_ms": 11330.0
+      },
+      {
+        "id": "MEM-002",
+        "question": "Java OutOfMemoryError 如何排查",
+        "keyword_coverage": "3/3",
+        "latency_ms": 9837.0
+      },
+      {
+        "id": "MEM-003",
+        "question": "内存泄漏怎么定位",
+        "keyword_coverage": "1/3",
+        "latency_ms": 5170.0
+      },
+      {
+        "id": "MEM-004",
+        "question": "free -h 显示内存不足，怎么处理",
+        "keyword_coverage": "3/3",
+        "latency_ms": 9654.0
+      },
+      {
+        "id": "MEM-005",
+        "question": "JVM GC overhead limit exceeded 是什么",
+        "keyword_coverage": "2/3",
+        "latency_ms": 5447.0
+      },
+      {
+        "id": "MEM-006",
+        "question": "Linux 内存使用率 95% 如何排查",
+        "keyword_coverage": "3/3",
+        "latency_ms": 11068.0
+      },
+      {
+        "id": "MEM-007",
+        "question": "进程被 SIGKILL 杀了",
+        "keyword_coverage": "3/3",
+        "latency_ms": 4240.0
+      },
+      {
+        "id": "CPU-001",
+        "question": "CPU 使用率过高怎么排查",
+        "keyword_coverage": "3/3",
+        "latency_ms": 6234.0
+      },
+      {
+        "id": "CPU-002",
+        "question": "top 显示 java 进程 CPU 100%",
+        "keyword_coverage": "3/3",
+        "latency_ms": 12141.0
+      },
+      {
+        "id": "CPU-003",
+        "question": "Linux 服务器负载高怎么办",
+        "keyword_coverage": "3/3",
+        "latency_ms": 15061.0
+      },
+      {
+        "id": "CPU-004",
+        "question": "如何查看每个 CPU 核心的使用率",
+        "keyword_coverage": "3/3",
+        "latency_ms": 4831.0
+      },
+      {
+        "id": "CPU-005",
+        "question": "服务器 CPU 突然飙高怎么定位",
+        "keyword_coverage": "3/3",
+        "latency_ms": 7707.0
+      },
+      {
+        "id": "CPU-006",
+        "question": "进程 CPU 占用高但业务量不大",
+        "keyword_coverage": "2/3",
+        "latency_ms": 3854.0
+      },
+      {
+        "id": "DSK-001",
+        "question": "磁盘空间不足怎么清理",
+        "keyword_coverage": "3/3",
+        "latency_ms": 6957.0
+      },
+      {
+        "id": "DSK-002",
+        "question": "No space left on device 错误",
+        "keyword_coverage": "3/3",
+        "latency_ms": 12237.0
+      },
+      {
+        "id": "DSK-003",
+        "question": "找出 Linux 中最大的文件",
+        "keyword_coverage": "3/3",
+        "latency_ms": 4772.0
+      },
+      {
+        "id": "DSK-004",
+        "question": "Docker 占用太多磁盘空间",
+        "keyword_coverage": "3/3",
+        "latency_ms": 6015.0
+      },
+      {
+        "id": "DSK-005",
+        "question": "inode 耗尽怎么处理",
+        "keyword_coverage": "3/3",
+        "latency_ms": 8669.0
+      },
+      {
+        "id": "DSK-006",
+        "question": "日志文件太大撑满磁盘",
+        "keyword_coverage": "3/3",
+        "latency_ms": 11112.0
+      },
+      {
+        "id": "DSK-007",
+        "question": "磁盘 IO 性能如何排查",
+        "keyword_coverage": "3/3",
+        "latency_ms": 6182.0
+      }
+    ]
+  }
+}

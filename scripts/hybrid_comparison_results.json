@@ -1,0 +1,17 @@
+{
+  "method": "Hybrid Search vs Pure Vector",
+  "test_queries": {
+    "natural_language": 6,
+    "log_keywords": 15
+  },
+  "results": {
+    "nl_pure_vector": 100.0,
+    "nl_hybrid": 100.0,
+    "log_pure_vector": 100.0,
+    "log_hybrid": 100.0
+  },
+  "improvement": {
+    "nl": 0.0,
+    "log": 0.0
+  }
+}

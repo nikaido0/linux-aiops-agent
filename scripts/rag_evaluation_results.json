@@ -1,0 +1,23 @@
+{
+  "method": "真实 DashScope Embedding + Chroma",
+  "test_queries": 24,
+  "documents": 6,
+  "results_by_topk": {
+    "1": 91.7,
+    "2": 91.7,
+    "3": 95.8,
+    "5": 100.0,
+    "7": 100.0,
+    "10": 100.0
+  },
+  "results_by_chunk_size": {
+    "400": 95.8,
+    "600": 95.8,
+    "800": 95.8,
+    "1000": 95.8
+  },
+  "recommended": {
+    "chunk_size": 400,
+    "top_k": 5
+  }
+}
